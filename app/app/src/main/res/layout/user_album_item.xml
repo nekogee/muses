@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:elevation="5dp"
+    cardCornerRadius="5dp"
+    cardUseCompatPadding="true"
+    cardPreventCornerOverlap="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        >
+
+        <ImageView
+            android:id="@+id/user_album_cover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            />
+        <TextView
+            android:id="@+id/user_album_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:layout_below="@id/user_album_cover"
+            android:elegantTextHeight="true"
+            android:textColor="#333"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="7dp"
+            android:paddingEnd="7dp"
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
